@@ -53,6 +53,12 @@ i{
 }
 
 
+
+.nav > form > input{
+    width: 358px;
+    transition: width 0.5s;
+}
+
 .left-sect{
     display: flex;
     align-items: center;
@@ -73,7 +79,8 @@ form{
 }
 
 form .search{
-    padding:0.5em 2em
+    padding:0.5em 2em;
+    
 }
 
 
@@ -155,6 +162,11 @@ form .mike{
     .main .thumbnails > div{
         flex: 1 0 32%;
     }
+
+    .nav > form > input{
+        width: 200px;
+    }
+
 }
 
 @media (max-width:868px){
@@ -162,4 +174,9 @@ form .mike{
         flex: 1 0 49%;
         min-width:235px 
     }
+
+    .nav > form > input{
+        width: 20px;
+    }
 }
+
